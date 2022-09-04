@@ -1,4 +1,4 @@
-Purpose : Revisiting the basic Python concepts 
+Purpose : Revisiting the basic Python concepts and summarizing the core concepts 
 Time : 43 hours 
 Resource: w3schools 
 
@@ -108,9 +108,3 @@ SCOPE
 
 
 
-
-
-
-
-Resources :
-w3schools.com : 
