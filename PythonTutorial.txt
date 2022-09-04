@@ -1,3 +1,20 @@
+Purpose : Revisiting the basic Python concepts 
+Time : 43 hours 
+
+Topics Explored 
+-Comments       -Variables        -Data Types
+-Numbers        -Casing           -Strings 
+-Booleans       -Operators        -Lists
+-Tuples         -Sets             -Dictionaries     -Arrays
+-If..Else       -While Loops      -For Loops 
+-Functions      -Lambda
+-Classes/Objects                  -Inheritance 
+-Iterators      -Scope
+-Modules 
+-Dates          -Math              -JSON             -RegEx
+-PIP
+-Try..Except    -User Input         -String Format
+
 LAMBDA
 -small anonymous function
 -Many arguments but one expression 
@@ -9,6 +26,53 @@ Example 1
 -def myfunc(n):
   return lambda a : a * n
 mydoubler = myfunc(2)
+
+
+ARRAYS 
+-Arrays : list of variables that can hold more than one value at a time 
+-Can use lists as arrays 
+-Need to import NumPy to work with arrays in python
+-cars = ["Ford", "Volvo", "BMW"]
+-cars[0] is the first array item 
+-Looping through arrays 
+  for x in cars:
+    print(x)  #remember identation matters 
+-Array methods : append(), clear(), copy(), count(),extend(), index(), insert(), pop(), remove(), reverse(), sort() 
+
+CLASSES/OBJECTS
+-Almost everything is an object: has properties and methods 
+-A class is an object constructor, or a blueprint for creating object 
+-Class 
+  class MyClass: 
+    x=5
+  p1=MyClass()   # creating an object named p1 
+  print(p1.x)
+-All classes have a built in function: __init__() which is executed when the class is initiated 
+-The init function is used to assign values to object properties or other operations necessary to do when the object is created 
+  class Person:    #creating a class named Person
+    def __init__(self, name, age): #use init function to assign values such as name and age 
+      self.name = name
+      self.age = age
+
+   p1 = Person("John", 36)
+Note: The __init__() function is called automatically every time the class is being used to create a new object.
+-The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+-The self parameter can be named anything but has to be the first parameter.
+-Class definitions can not be empty 
+
+INHERITANCE
+-A class inherits all the methods and properties from anotehr class 
+-Parent/Base class - The class being inherited from 
+-Child/Derived Class - The class inherting from another clss 
+-Any class  can be a parent class so syntac is the same
+  class Student(Person):  #student is the Parent & Person is the child
+    pass 
+-When you add the __init__() function, the child class will no longer inherit the parent's __init__() function.Instead teh new function will override the parent function.
+-Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
+   class Student(Person):
+     def __init__(self, fname, lname):
+     super().__init__(fname, lname)
+
 
 
 
