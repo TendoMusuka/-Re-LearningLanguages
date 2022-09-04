@@ -131,6 +131,40 @@ y = json.loads(x)                                          #parse x:
 print(y["age"])                                            #the result is a Python dictionary:
 
 
+REGEX:REGULAR EXPRESSION 
+-Python has a built-in package called re, which can be used to work with Regular Expressions.
+-Import the re module:
+
+PIP
+-Package manager for python packages or modules.
+-A package contains all the files you need for a module.
+-Modules are Python code libraries you can include in your project
+-Use the list command to list all the packages installed on your system:
+
+
+TRY.....EXCEPT
+-The try block lets you test a block of code for errors.
+-The except block lets you handle the error.
+-The else block lets you execute code when there is no error.
+-The finally block lets you execute code, regardless of the result of the try- and except blocks.
+-You can define as many exception blocks as you want, e.g. if you want to execute a special block of code for a special kind of error:
+try:
+  f = open("demofile.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")  #if the try produces an error then this line prints 
+  finally:
+    f.close()  #this line executes whether or not the try lien is executed 
+except:
+  print("Something went wrong when opening the file")
+-As a Python developer you can choose to throw an exception if a condition occurs.
+-To throw (or raise) an exception, use the raise keyword.
+-if not type(x) is int:
+  raise TypeError("Only integers are allowed")
+  
+  
+
 
 
 
