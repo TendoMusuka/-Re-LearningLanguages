@@ -1,4 +1,20 @@
-Lambda
+LAMBDA
 -small anonymous function
 -Many arguments but one expression 
 -lambda arguments :expression 
+-e.g x = lambda a:a +10, x= lambdar a,b : a*b
+- better used when you use as an anonymous function inside another function 
+
+Example 1
+-def myfunc(n):
+  return lambda a : a * n
+mydoubler = myfunc(2)
+
+
+
+
+
+
+
+Resources :
+w3schools.com : 
