@@ -1,0 +1,4 @@
+Lambda
+-small anonymous function
+-Many arguments but one expression 
+-lambda arguments :expression 
