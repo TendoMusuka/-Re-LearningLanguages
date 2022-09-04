@@ -162,7 +162,14 @@ except:
 -To throw (or raise) an exception, use the raise keyword.
 -if not type(x) is int:
   raise TypeError("Only integers are allowed")
-  
+
+
+USER INPUT 
+-Example
+  username = input("Enter username:")
+  print("Username is: " + username)
+
+
   
 
 
