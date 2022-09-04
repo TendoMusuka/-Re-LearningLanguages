@@ -8,13 +8,22 @@ Topics Explored
 -Booleans       -Operators        -Lists
 -Tuples         -Sets             -Dictionaries     -Arrays
 -If..Else       -While Loops      -For Loops 
--Functions      -Lambda
--Classes/Objects                  -Inheritance 
--Iterators      -Scope
--Modules 
+-Functions      -Lambda           -Scope            -Modules
+-Classes/Objects                  -Inheritance      -Iterators       
 -Dates          -Math              -JSON             -RegEx
 -PIP
 -Try..Except    -User Input         -String Format
+
+SCOPE
+-A variable is only available from inside the region it is created.
+-A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+-If you need to create a global variable, but are stuck in the local scope, you can use the global keyword.
+-Avoid using global variables
+
+MODULES 
+-Consider a module to be the same as a code library.
+-A file containing a set of functions you want to include in your application.
+-When using a function from a module, use the syntax: module_name.function_name.
 
 LAMBDA
 -small anonymous function
@@ -103,8 +112,26 @@ myiter = iter(myclass)
 for x in myiter:
   print(x)
   
+DATETIME
+-Import module named datetime to work with dates as date objects.
+-To create a date, we can use the datetime() class (constructor) of the datetime module.
+-The datetime() class requires three parameters to create a date: year, month, day.
+-The datetime() class also takes parameters for time and timezone (hour, minute, second, microsecond, tzone), but they are optional, and has a default value of 0, (None for timezone).
+-The method is called strftime(), and takes one parameter, format, to specify the format of the returned string:It can be the following : weekday,month,minute,second and the format 
 
-SCOPE
+
+JSON 
+-A syntax for storing and exchanging data 
+-A text written with JavaScript object Notation 
+-Python has a built-in package called json, which can be used to work with JSON data.
+-Can covert JSON to Python and vice versa and the result will be a python dictionary 
+import json
+x =  '{ "name":"John", "age":30, "city":"New York"}'       #some JSON
+y = json.loads(x)                                          #parse x:
+print(y["age"])                                            #the result is a Python dictionary:
+
+
+
 
 
 
