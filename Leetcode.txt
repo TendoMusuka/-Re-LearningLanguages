@@ -1,0 +1,20 @@
+ROMAN TO INTEGER
+-Do not forget your boundary values and test those : <,>,=
+-Decreasing runtime : the most common condition should come first in an if statement
+-Use dictionaries for mapping 
+values = {
+    "I": 1,
+    "V": 5,
+    "X": 10,
+    "L": 50,
+    "C": 100,
+    "D": 500,
+    "M": 1000,
+    "IV": 4,
+    "IX": 9,
+    "XL": 40, 
+    "XC": 90,
+    "CD": 400,
+    "CM": 900
+} 
+values[I] will give you 1
