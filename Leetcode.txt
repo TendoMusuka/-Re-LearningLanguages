@@ -18,3 +18,18 @@ values = {
     "CM": 900
 } 
 values[I] will give you 1
+
+
+BINARY  
+-There are three types : preorder, inorder & postoerder
+- Preorder: prints the node on the first point of contact 
+Watch the following video for basics : https://www.youtube.com/watch?v=WLvU5EQVZqY
+-Binary tree a structure that contains max 2 children and min 0 children
+-Node structure has 3 structure : data value(value), the left reference & the right refence 
+-Depth first transerval : preorder, inorder, postorder 
+- Preorder : root node, left node, right node 
+-Inorderd : Left node, root node, right node
+-Post order : left node, right node, root node 
+-Level Order Transveral : Explore nodes present on each level 
+-
+

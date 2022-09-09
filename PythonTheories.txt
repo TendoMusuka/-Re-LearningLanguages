@@ -10,4 +10,18 @@ Procedural programming is a programming paradigm, derived from structured progra
 
 OOP 
 - Think about what it does(methods) and what it has (attributes) 
--
+-The class the the blueprint 
+- Can generate many objects from the blueprint(class)
+
+
+
+Useful resources 
+PyPi - The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop, is the official third-party software repository for Python. 
+	It is analogous to the CPAN repository for Perl and to the CRAN repository for R. 
+	PyPI is run by the Python Software Foundation, a charity.
+
+from prettytable import PrettyTable 
+-prettytable is the module 
+-PrettyTable is a class
+
+
